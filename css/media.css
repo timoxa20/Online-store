@@ -1,0 +1,222 @@
+
+@media (max-width: 1200px){
+    .banner-section__slider{
+        max-width: 600px;
+    }
+    .catalog__inner-list{
+        justify-content: space-around;
+    }
+    .banner-section__slider-img{
+        min-height: 380px;
+        max-width: 600px;
+    }
+    .banner-section__inner{
+        justify-content: space-around;
+    }
+    .categories__inner{
+        justify-content: space-around;
+    }
+    .banner-link img{
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 1100px){
+    .menu__item + .menu__item {
+        padding-left: 20px;
+    }
+    .header__adress {
+        margin-right: 20px;
+    }
+    .product-card__inner{
+        flex-wrap: wrap;
+    }
+    .product-card__content{
+        width: 100%;
+        text-align: center;
+    }
+    .product-card__tab {
+        margin-top: 15px;
+    }
+    .product-card__img-box{
+        margin: 0 auto;
+    }
+    .card__box{
+        flex-wrap: wrap;
+    }
+    .card__total {
+        margin-bottom: 10px;
+    }
+    .card__product,
+    .card__text,
+    .card__price,
+    .card__quantity,
+    .card__total,
+    .card__code{
+        width: 100%;
+        text-align: center;
+    }
+    .card__title {
+        padding-top: 15px;
+    }
+    .accound__box{
+        flex-wrap: wrap;
+    }
+    .accound__accound{
+        margin-bottom: 50px;
+    }
+    .cloce{
+        top: 22px;
+    }
+    .card__text{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 968px){
+    .headet__bottom,
+    .menu-categories{
+        display: none;
+    }
+    .menu__list{
+        display: none;
+    }
+    .menu__btn{
+        display: block;
+    }
+    .banner-section__inner{
+        margin: 25px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .banner-section__slider-item{
+        text-align: center;
+    }
+    .banner-section__slider{
+        max-width: 100%;
+    }
+    .banner-section__slider-img{
+        min-height: 380px;
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+    .page-section{
+        margin-bottom: 20px;
+    }
+    .banner{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 968px){
+    .footer__top-inner{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer__top-item{
+        margin-bottom: 25px;
+    }
+    .breadcrumbs__inner{
+        overflow-x: scroll;
+    }
+    .mobile__overvlou{
+        width: 1000px;
+    }
+}
+
+
+@media (max-width: 640px){
+    .header__adress{
+        display: none;
+    }
+    .logo img{
+        width: 75px;
+        height: 60px;
+    }
+    .banner-section__slider-img{
+        min-height: 200px;
+    }
+    .banner-section .container{
+        padding: 0;
+    }
+    .catalog__inner{
+        flex-wrap: wrap;
+    }
+    .product-slider__item+.product-slider__item{
+        margin-left: 0;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 540px){
+    .footer__top-item{
+        width: 100%;
+    }
+    .footer__bottom{
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer__bottom-link{
+        margin: 12px 0;
+    }
+    .footer__top-inner{
+        justify-content: start;
+    }
+    .footer__top-item.footer__top-social{
+        width: 100%;
+    }
+    .social-list{
+        justify-content: center;
+    }
+    .footer__top-item.footer__top-newslatter{
+        margin-left: auto;
+        margin-right: auto;
+        width: 290px;
+    }
+    .footer-list{
+        display: none;
+        font-weight: 500;
+        
+    }
+    .footer__top-title{
+        font-size: 14px;
+        line-height: 18px;
+        color: #7F7F7F;
+        padding: 15px 0;
+        border-bottom: 2px solid #f9f9fc;
+    }
+    .footer__top-item.footer__top-newslatter h6{
+        border: none;
+    }
+    .footer__topdrop::after{
+        content: "";
+        position: absolute;
+        background-image: url(../images/arrowdown.svg);
+        top: 19px;
+        width: 24px;
+        height: 12px;
+        right: 0;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .footer__top-item{
+        position: relative;
+    }
+    .product-card__img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 440px){
+    .banner-section__slider-img{
+        min-height: 160px;
+    }
+    .categories__item-title{
+        font-size: 20px;
+    }
+    .pagination-list__item {
+        padding: 4px 7px;
+    }
+}
